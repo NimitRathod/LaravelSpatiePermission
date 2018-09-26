@@ -1,0 +1,100 @@
+
+/*@media only screen and (min-width: 481px) and (max-width: 768px) {*/
+	@media only screen and (max-width: 768px) {
+		.nav-container,.container {
+			margin: 3% auto;
+		}
+		.nav-list li {
+			float: left;
+			width: 50%;
+		}
+		.nav-list li a:hover{
+			padding-right: 40%;
+			padding-top: 30px ;
+		}
+	}
+	@media only screen and (max-width: 480px)  {
+		
+		form.form-change {
+			/*margin-top: 40px;*/
+		}
+		.nav-container, .container {
+			background:#fff
+		}
+		.nav-menu{
+			color: #fff;
+			float: left;
+			display: block;
+			padding: 10px 10px;
+			cursor: pointer;
+		}
+		.nav-list{
+			float: left; 
+			width: 100%;
+			height: 0;
+		}
+		.nav-open {
+			height:auto
+		}
+		.nav-list li {
+			width:100%
+		}
+		.nav-list li a {
+			text-align: left;
+		}
+		.nav-list li a:hover {
+			padding-left: 36%;
+			padding-top: 30px;
+		}
+	}
+	@media only screen and (max-width:320px) {
+	/*.nav-container, .container {
+		background:#4f6f8f
+	}
+	.nav-menu{
+		color: #fff;
+		float: left;
+		display: block;
+		padding: 10px 10px;
+		cursor: pointer;
+	}
+	.nav-list{
+		float: left; 
+		width: 100%;
+		height: 0;
+	}
+	.nav-open {
+		height:auto
+	}
+	.nav-list li {
+		width:100%
+	}
+	.nav-list li a {
+		text-align: left;
+	}
+	.nav-list li a:hover {
+		padding-left: 36%;
+		padding-top: 30px;
+		}*/
+		form.form-change {
+			/*margin-top: 40px;*/
+		}
+		.form-control {
+			display: block;
+			width: 100%;
+			height: 35px !important;
+			font-size: 21px;
+			padding: 6px 12px;
+	    /*line-height: 1.42857143;
+	    color: #555;
+	    background-color: #fff;
+	    background-image: none;
+	    border: 1px solid #ccc;
+	    border-radius: 4px;*/
+	    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	}
+}

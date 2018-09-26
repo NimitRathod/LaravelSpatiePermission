@@ -1,0 +1,13 @@
+Rifle Shooting Admin Panel
+
+cache clear		
+	https://laracasts.com/discuss/channels/laravel/spatielaravel-permission-clearing-cache-does-not-appear-to-refresh-permissions
+
+
+complated
+	registraion and verify mail
+	user role & permission 
+		super-admin
+			all permission
+		admin
+			user-list
